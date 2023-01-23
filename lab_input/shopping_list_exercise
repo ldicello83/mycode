@@ -1,0 +1,3 @@
+shopping_list = ["broccoli", "apples", "milk"]
+print(shopping_list)
+
