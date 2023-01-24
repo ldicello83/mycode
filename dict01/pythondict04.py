@@ -20,10 +20,10 @@ def main():
     print( "Seventh test - .pop()" )
     print(switch.pop("version"))
     print( switch.keys() )
-    print( switch.vaues() )
-    print( "Eitth test - ADD a new value" )
+    print( switch.values() )
+    print( "Eighth test - ADD a new value" )
     switch["adminlogin"] = "karl08"
-    print( switchkeys() )
+    print( switch.keys() )
     print( switch.values() )
     print( "Ninth test - ADD a new value" )
     switch["password"] = "qwerty"
