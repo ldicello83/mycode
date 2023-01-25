@@ -1,0 +1,16 @@
+
+outfile = open("admin.rc", "a")
+osAUTH = input("What is the OS_AUTH_URL" )
+print("export this" + osAUTH, file=outFile)
+osPROJ = input("What is OS_PROJECT_NAME?")
+print("export to " + osPROJ, file=outFile
+osPROJDOM = input("What is domain name")
+print("export " + osPROJDOM, file=outFile)
+osUSER = input(What is OS_USERNAME")
+print("export " + osUSER, file=outFile)
+OSUSERDOM = input("What is user domain"
+print("export " + osUSERDOM, file=outFile
+osPASS = input("Password ")
+print("export " + osPASS, file=outFile)
+outFile.close()
+
